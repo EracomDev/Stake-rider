@@ -1,0 +1,11 @@
+#ordersImg img {
+    width: 100%;
+    background: #fff;
+    display: none;
+}
+
+@media (max-width:567px) {
+    #ordersImg img {
+        display: block;
+    }
+}

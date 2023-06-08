@@ -1,0 +1,33 @@
+#directIncomeRow {
+    /* border: 1px solid var(--primary); */
+    text-align: center;
+    padding: 10px;
+}
+
+#directIncomeRow h4 {
+    color: var(--primary);
+    /* color: #fff; */
+}
+
+#directIncomeRow p {
+    font-weight: bold;
+    /* color: #fff; */
+}
+
+#directIncomeRow p>span {
+    font-weight: bold;
+}
+
+#directIncomeDiv {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    background: var(--bgColor);
+    border-radius: 5px;
+}
+
+@media (max-width: 567px) {
+    #directIncomeRow h4 {
+        font-size: 18px;
+    }
+}

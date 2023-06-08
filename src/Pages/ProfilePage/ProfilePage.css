@@ -1,0 +1,102 @@
+:root {
+    --bgColor: #fff;
+    --textColor: rgb(32, 29, 29);
+    --inputTextColor: rgb(100, 96, 96);
+}
+
+.pagePath {
+    color: var(--textColor);
+    border-radius: 4px;
+    background: var(--bgColor);
+    display: flex;
+    /* border: 1px solid var(--textColor); */
+
+}
+
+.pagePath p {
+    padding: 10px;
+    font-size: 15px;
+    color: var(--textColor);
+    font-weight: 700;
+}
+
+.pagePath p span {
+    font-weight: 400;
+}
+
+.editProfileCard h3 {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--navbarColor)
+}
+
+.editProfileCard {
+    margin-top: 20px;
+    /* border: 1px solid var(--textColor); */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--bgColor);
+    color: var(--textColor);
+    flex-wrap: wrap;
+}
+
+.editProfileCard button {
+    padding: 7px 14px;
+    border: 1px solid var(--navbarColor);
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--navbarColor);
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 17px;
+    font-weight: 500
+}
+
+.editProfileCard button:hover {
+    opacity: 0.8;
+}
+
+.profileUserDetail {
+    padding: 20px;
+    margin-top: 20px;
+    background: var(--bgColor);
+    /* border: 1px solid var(--textColor); */
+    border-radius: 10px;
+    color: var(--textColor);
+}
+
+.profileUserDetail ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #555;
+    font-weight: 500;
+
+}
+
+.profileUserDetail ul li b {
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--navbarColor);
+}
+
+.editProfileCard img {
+    text-align: center;
+    border: 1px solid #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid var(--navbarColor);
+    padding: 5px;
+}
+
+@media (max-width: 576px) {
+    .editProfileCard button {
+        margin-top: 10px;
+    }
+}

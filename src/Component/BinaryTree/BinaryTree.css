@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    overflow: hidden; */
+}
+
+.of {
+    overflow: hidden;
+}
+
+hr {
+    color: #ccc !important;
+}
+
+.imgDiv {
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 50px !important; */
+}
+
+.imgDiv hr {
+    width: 22px;
+    margin: 10px auto;
+    height: 1px;
+}
+
+.imgDiv img {
+    /* border: 1px solid var(--primary);
+    border-radius: 50%;
+    padding: 4px; */
+    margin-top: 4px;
+    width: 40px;
+}
+
+.hrVertical {
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+
+.hrVerticalOnImg {
+    transform: rotate(90deg);
+    width: 25px;
+    margin: auto;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.hrHorizontal {
+    width: 50%;
+    margin: 0 auto;
+    height: 1px;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.null {
+    font-size: 12px;
+    text-align: center;
+    color: #ccc;
+}
+
+#dataTree p {
+    margin-bottom: -5px;
+    color: #153D77;
+    font-weight: 500;
+}
+
+#userId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#dataTree p i {
+    margin-left: 5px;
+    font-size: 13px;
+    color: green;
+    display: none;
+}
+
+.userActive {}
+
+@media (max-width: 576px) {
+    .hrVerticalOnImg {
+        transform: rotate(90deg);
+        width: 10px;
+        margin: auto;
+        margin-top: 4px;
+        margin-bottom: 15px;
+    }
+
+    .hrVertical {
+        transform: rotate(90deg);
+        margin: auto;
+        width: 20px;
+        margin-top: 10px;
+    }
+
+    .hrHorizontal {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 9px;
+    }
+
+    .imgDiv img {
+        width: 30px;
+        /* margin-bottom: 50px !important; */
+    }
+
+
+    #dataTree p {
+        margin-bottom: 0px;
+        color: #153D77;
+        font-weight: 400;
+        font-size: 8px !important;
+    }
+
+    .imgDiv hr {
+        width: 14px;
+        color: #000;
+        margin: 6px auto;
+    }
+}
+
+/* -------------------------------------------- */

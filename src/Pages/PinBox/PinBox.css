@@ -1,0 +1,18 @@
+#CopyShareIcon>i {
+    font-size: 15px !important;
+    align-items: right;
+    margin-left: 7px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+#CopyShareIcon {
+    margin-left: 10px;
+}
+
+@media (min-width: 567px) {
+    .inlineBtn {
+        margin-top: 5px !important;
+        padding: 3px 10px !important;
+    }
+}

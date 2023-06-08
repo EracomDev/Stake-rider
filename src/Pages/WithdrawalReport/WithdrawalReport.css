@@ -1,0 +1,102 @@
+.exportToExcelItems {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+
+}
+
+#mainExportToExcel {
+    margin-top: 10px;
+}
+
+.exportToExcelItems h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.exportToExcelItems p {
+    font-size: 16px;
+    color: var(--primary);
+}
+
+#withdrawalReportRow {
+    border-radius: 4px;
+    background: var(--bgColor);
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.exportToExcelCol {
+    margin: auto;
+}
+
+.exportToExcel {
+    padding: 7px 10px;
+    display: block;
+    margin: auto;
+}
+
+.exportToExcel i {
+    font-size: 17px !important;
+}
+
+.f-2rem h1 {
+    font-size: 2rem;
+}
+
+
+.withdrawal_depositDiv {
+    background: var(--bgColor);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.withdrawal_depositDiv h2 {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.withdrawal_depositDiv input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.withdrawal_depositDiv input:focus-visible {
+    border: 1px solid var(--primary) !important;
+}
+
+.withdrawal_depositDiv button {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.withdrawAmount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.depositWithdrawImg {
+    height: 230px;
+    margin: 20px auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .exportToExcel {
+        margin: 0;
+        float: right;
+    }
+}

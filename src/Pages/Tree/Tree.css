@@ -1,0 +1,19 @@
+.treeFilter input,
+.treeFilter select {
+    padding: 4px 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+#treeFilterDiv {
+    background: var(--bgColor);
+    padding: 16px;
+}
+
+@media (max-width:576px) {
+    .treeFilter input {
+        margin-bottom: 10px;
+    }
+}

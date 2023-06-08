@@ -1,0 +1,29 @@
+.mr-10 {
+    margin-right: 10px;
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.memberTopupRow {
+    background: var(--bgColor);
+    padding: 10px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.memberTopupFormCol {
+    padding: 10px;
+}
+
+
+.memberTopupTextCol {
+    padding: 10px;
+}
+
+@media (max-width: 567px) {
+    .memberTopupTextCol {
+        padding-top: 30px;
+    }
+}

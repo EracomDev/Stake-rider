@@ -1,0 +1,23 @@
+#rewardsImgCol img {
+    width: 100%;
+}
+
+#rewardsImgCol {
+    overflow: hidden;
+}
+
+#rewardsTableRow {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--bgColor);
+}
+
+#rewardsTableDiv {
+    padding: 10px;
+}
+
+#directTableRow {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}

@@ -1,0 +1,156 @@
+#ticketIdDiv {
+    margin-top: 10px;
+    background: var(--bgColor);
+    border-radius: 4px;
+}
+
+#ticketIdDiv label {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#ticketIdDiv input,
+#ticketIdDiv select {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border-color: #ccc;
+}
+
+#ticketIdDiv input:focus,
+#ticketIdDiv select:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.supportDetail {
+    text-align: center;
+    padding: 10px;
+}
+
+.supportDetail h1,
+.supportDetail p {
+    color: green !important;
+}
+
+.fontRed h1,
+.fontRed p {
+    color: red !important;
+}
+
+.supportDetail p {
+    color: #555;
+    font-size: 13px;
+}
+
+#supportDetailsRow {
+    background: var(--bgColor);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#supportDetailsDiv {
+    padding: 10px;
+}
+
+#urgentInquiry {}
+
+#urgentInquiryDiv {
+    border-radius: 5px;
+    padding: 10px;
+    background: var(--bgColor);
+}
+
+#urgentInquiryDiv h4 {
+    color: var(--primary);
+}
+
+#urgentInquiryDiv p {
+    font-weight: bold;
+}
+
+#urgentInquiryDiv p span {
+    font-weight: normal !important;
+    margin-left: 5px;
+}
+
+#latestTicketDiv {
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--bgColor);
+    border-radius: 5px;
+}
+
+#latestTicketDiv h4 {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+#latestTicketDiv p {
+    font-size: 14px;
+}
+
+#latestTicketDiv #ticketTitle {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#ticketDiv {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#ticketDiv i {
+    font-size: 40px !important;
+    margin: auto 0;
+    margin-right: 20px;
+    color: var(--primary);
+}
+
+#ticketDiv p {
+    margin: 0;
+}
+
+
+#newSupportTicket {
+    background: var(--bgColor);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#newSupportTicket h4 {
+    color: var(--primary);
+}
+
+#newSupportTickeFormDiv p {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 4px;
+    border-radius: 5px
+}
+
+#newSupportTickeFormDiv textarea {
+    width: 100%;
+    border-radius: 5px;
+    border-color: #ccc;
+    padding: 10px;
+}
+
+#supportTicket {
+    background: var(--bgColor);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#supportTicket h4 {
+    color: var(--primary);
+}
+
+@media (max-width:576px) {
+    #newSupportTicket {
+        margin-top: 10px;
+    }
+}

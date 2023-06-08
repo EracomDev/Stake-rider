@@ -1,0 +1,13 @@
+#rewardIncomeImg img {
+    width: 45%;
+
+    display: block;
+    margin: auto;
+    display: none;
+}
+
+@media (max-width: 567px) {
+    #rewardIncomeImg img {
+        display: block;
+    }
+}

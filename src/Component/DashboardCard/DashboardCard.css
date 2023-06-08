@@ -1,0 +1,56 @@
+#dashboardCard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#dashboardCard #titleWithIcon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#titleWithIcon p {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#dashboardCard #titleWithIcon i {
+    background: var(--primary);
+    color: #fff;
+    border-radius: 50%;
+    /* padding: 10px; */
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+#dashboardCard #titleWithIcon i:hover {
+    transform: rotate(360deg);
+}
+
+#dashboardCard h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #383636;
+}
+
+#aboutDashCard {
+    color: var(--primary);
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#aboutDashCard span {
+    color: red;
+}

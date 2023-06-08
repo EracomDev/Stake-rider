@@ -1,0 +1,166 @@
+#editProfile #tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#editProfileContent {
+    background: var(--bgColor);
+}
+
+/* #infoTab {
+    border-bottom: 2px solid var(--primary);
+} */
+
+/* #infoTab::after,
+#passTab::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+} */
+
+.userActive::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--primary);
+    transition: width .3s;
+    margin-top: 5px;
+}
+
+#infoTab:hover,
+#passTab:hover {
+    color: #000 !important;
+}
+
+.formItems {
+    padding: 20px;
+}
+
+.formItems label,
+.form label {
+    width: 100%;
+}
+
+.formItems input,
+.form input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.form input:focus,
+.formItems input:focus {
+    outline: none !important;
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.uploadImage {
+    text-align: center;
+}
+
+.uploadImage img {
+    margin-bottom: 10px;
+}
+
+.chooseFile label {
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    background-color: var(--primary);
+    /* color: var(--textColor); */
+    color: #fff;
+    padding: 3px 7px;
+    font-size: 15px;
+    display: inline;
+    cursor: pointer;
+}
+
+.chooseFile input {
+    display: none;
+}
+
+.form input {
+    padding: 8px;
+}
+
+.form div {
+    margin-bottom: 10px;
+}
+
+.save {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: #fff;
+    padding: 7px 14px;
+    display: inline;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cancel {
+    background-color: var(--bgColor);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 7px 14px;
+    display: inline;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.save:hover {
+    opacity: 0.7;
+}
+
+.cancel:hover {
+    color: var(--primary);
+    opacity: 0.7;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#passImage {
+    text-align: center;
+}
+
+#passImage img {
+    width: 100%;
+    height: 400px;
+}
+
+.uploadImage img {
+    text-align: center;
+    border: 1px solid #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid var(--sideTextColorHover);
+    padding: 5px;
+}
+
+#changePassword {
+    padding: 30px;
+}
+
+.from {
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    #passImage img {
+        text-align: center;
+        margin: auto;
+        width: auto;
+        height: 200px;
+    }
+}

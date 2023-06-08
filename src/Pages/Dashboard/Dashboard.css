@@ -1,0 +1,257 @@
+#dashboard {
+    margin-top: -10px;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+#dashboardContent {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.topDiv {
+    width: 100%;
+    height: 20vh;
+    background: var(--navbarColor);
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboardContent {
+    margin-top: -70px;
+}
+
+.topDiv p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-right: 20px;
+}
+
+.topDiv h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.topDiv h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.topDiv h2,
+.topDiv h4 {
+    color: #fff;
+}
+
+.dashGraphTopDiv {
+    text-align: center;
+}
+
+.dashGraphTopDiv h1 {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.dashGraphTopDiv p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#graphCol {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#saleAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#saleAndButton h5 {
+    color: #ccc;
+}
+
+.earnBtn {
+    padding: 0px 10px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+#graphDiv {
+    margin-left: -32px;
+    margin-top: 20px;
+}
+
+/* ---------------------overall and commission------------------- */
+#overCommDiv {
+    display: flex;
+}
+
+#overCommDiv h5 {
+    margin-left: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+#overCommDiv h5:hover {
+    opacity: 0.7;
+}
+
+#overallCommissionDiv {
+    background: #fff;
+    padding: 10px;
+}
+
+#overallCommissionDiv hr {
+    margin-top: 0px;
+}
+
+#overallActive::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--primary);
+    transition: width 0.3s;
+    margin-top: 5px;
+}
+
+/* -----------------ReferralLink--------------------- */
+#ReferralLinkCol {
+    background: #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+#ReferralLinkBtn {
+    display: flex;
+    position: relative;
+}
+
+
+#ReferralLinkBtn input {
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+    padding-right: 90px;
+}
+
+#socialMedia {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--primary);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    border-radius: 3px;
+}
+
+#socialMedia:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+#socialMediaCol p {
+    font-size: 20px;
+    color: black;
+}
+
+#socialMediaCol p span {
+    font-size: 15px;
+}
+
+.dashboardLinkButtons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.dashboardLinkButtons i,
+.dashboardLinkButtons a {
+    font-size: 18px !important;
+    margin-right: 2px;
+    padding: 0px 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #212529 !important;
+}
+
+.dashboardLinkButtons i:hover {
+    background: rgb(206, 204, 204);
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .topDiv h4 {
+        font-size: 12px;
+    }
+
+    .topDiv p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+/* ---------------------card-------------------- */
+/* #dashboardCard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#dashboardCard #titleWithIcon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#titleWithIcon p {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+#dashboardCard #titleWithIcon i {
+    background: #2469ce;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dashboardCard h1 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#aboutDashCard {
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+#aboutDashCard span {
+    color: red;
+} */

@@ -1,0 +1,51 @@
+.alertBody {
+    min-width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: #C2EAC2; */
+    /* color: #0b4a0b; */
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    z-index: 99;
+}
+
+.alertBody div {
+    display: flex;
+    align-items: center;
+}
+
+.alertBody i {
+    font-size: 30px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.alertBody p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.alertBody hr {
+    width: 100%;
+    height: 4px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    animation: myAnim 3s infinite linear;
+    border-radius: 10px;
+    left: 3px
+}
+
+@keyframes myAnim {
+    from {
+        width: 97%;
+        visibility: 100%;
+    }
+
+    to {
+        width: 0%;
+        visibility: 30%;
+    }
+}

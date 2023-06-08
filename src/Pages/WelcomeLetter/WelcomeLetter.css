@@ -1,0 +1,55 @@
+li {
+    list-style-type: none;
+}
+
+#printReport {
+    margin-top: 2rem;
+}
+
+#printReport i {
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 50px !important;
+}
+
+div.welcomeLetter {
+    background: #fff;
+}
+
+.welcomeLetter {
+    /* background: #fff; */
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--textColor);
+    line-height: 26px;
+}
+
+.welcomeLetterDetailPerson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.welcomeLetterDetailWithImage {
+    display: flex;
+}
+
+.welcomeLetterDetailWithImage img {
+    text-align: center;
+    border: 1px solid #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    padding: 5px;
+}
+
+.welcomeLetterDetailWithImage h3 {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.welcomeLetterDetailPerson>h2 {
+    color: var(--primary);
+}

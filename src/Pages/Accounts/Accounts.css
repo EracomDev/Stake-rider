@@ -1,0 +1,72 @@
+#accounts {
+    background: var(--bgColor);
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+
+#choosebank label {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#choosebank select {
+    width: 100%;
+    padding: 6px 14px;
+    outline: none;
+}
+
+#choosebank select:focus-visible {
+    border-color: var(--primary);
+}
+
+.bankitems {
+    margin-top: 5px;
+}
+
+.bankitems input:focus {
+    outline: none !important;
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.bankitems label {
+    width: 100%;
+    margin: 3px 0px;
+}
+
+.bankitems input {
+    color: var(--inputTextColor);
+    width: 100%;
+    padding: 5px 10px;
+
+}
+
+.accountTable table {
+    width: 100%;
+}
+
+.accountTable table,
+.accountTable th,
+.accountTable td {
+    border: 1px solid #ccc;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.accountTable th {
+    background: var(--primary);
+    color: var(--bgColor);
+}
+
+#tableDelete {
+    color: red;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+#tableSetDefault {
+    color: var(--primary);
+    cursor: pointer;
+}

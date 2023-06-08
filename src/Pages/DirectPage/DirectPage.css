@@ -1,0 +1,130 @@
+#filterRow div input {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin: 5px 0px;
+}
+
+#filterLogo {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#filterLogo i {
+    color: var(--primary);
+}
+
+#filterRow div select {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin: 5px 0px;
+}
+
+#filterRow {
+    background-color: #fff;
+    margin: 0;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#filter i {
+    color: var(--primary);
+}
+
+#filterRow div input:focus,
+#filterRow div select:focus {
+    outline: none !important;
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.filter,
+.reset {
+    box-sizing: border-box;
+}
+
+.reset i,
+.filter i {
+    font-size: 10px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+button.reset i,
+button.filter i {
+    font-size: 15px !important;
+}
+
+button.reset i {
+    color: var(--primary) !important;
+}
+
+#directTableRow {
+    background: var(--bgColor);
+    margin: 0px;
+    margin-top: 10px;
+    overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+#directTableRow table {
+    width: 100%
+}
+
+#directTableRow table,
+#directTableRow th,
+#directTableRow td {
+    border: 1px solid #ccc;
+    padding: 7px;
+    white-space: nowrap;
+}
+
+#directTableRow tr {
+    transition: all 0.3s;
+}
+
+#directTableRow tr:hover {
+    background: var(--primary);
+    color: var(--bgColor) !important;
+}
+
+#directTableRow tr:hover i {
+    color: var(--bgColor) !important;
+}
+
+#directTableRow th {
+    background: var(--primary);
+    color: var(--bgColor);
+}
+
+
+
+@media (max-width:576px) {
+    #FilterMainDiv {
+        height: 0px;
+        position: relative;
+        left: -2000px;
+    }
+
+    #filterLogo {
+        text-align: right;
+        float: right;
+    }
+
+    #FilterMainDiv1 {
+        height: auto;
+        position: relative;
+        left: 0px;
+        transition: 0.5s;
+    }
+
+    .filter,
+    .reset {
+        margin-bottom: 20px;
+    }
+}

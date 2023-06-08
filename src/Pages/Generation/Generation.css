@@ -1,0 +1,9 @@
+#generationAction i {
+    color: var(--primary);
+    display: block;
+    text-align: center;
+}
+
+#myTable {
+    display: flex;
+}

@@ -1,0 +1,88 @@
+.reportBtn {
+    padding: 3px 10px !important;
+    margin-top: 0px;
+}
+
+.reportBtn i {
+    font-size: 17px !important;
+    color: #fff !important;
+    padding: 0 !important;
+}
+
+#reportPageLeftDiv {
+    background: var(--bgColor);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#reportPageLeftDiv>div>p {
+    margin-bottom: 0 !important;
+}
+
+#reportPageLeftDiv select {
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+#reportPageLeftCol {
+    padding: 20px;
+    /* background: var(--bgColor); */
+}
+
+#reportPageLeftCol select {
+    width: 100%;
+    background: var(--bgColor);
+    padding: 5px 10px;
+}
+
+#reportPageLeftCol {
+    /* background: var(--bgColor); */
+    color: var(--textColor);
+}
+
+#reportPageRightCol {
+    padding: 20px;
+    /* background: var(--bgColor); */
+    color: var(--textColor);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#reportPageRightCol p {
+    font-size: 12px;
+}
+
+#reportPageRightCol>div {
+    text-align: center;
+}
+
+#reportPageRightCol>div>h5 {
+    color: rebeccapurple;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#reportPageRightCol>div>hr {
+    margin-top: 30px !important;
+    color: #ccc !important;
+    opacity: 1 !important;
+    width: 80px;
+    margin-top: 21px;
+    height: 0px;
+    transform: rotate(90deg);
+}
+
+
+@media (max-width: 576px) {
+    .reportBtn {
+        padding: 5px 10px;
+        margin-top: 20px;
+    }
+
+    #reportPageLeftCol {
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+}
